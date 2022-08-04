@@ -42,3 +42,37 @@ body{
 .contact__img{
     width: 90%;
 }
+
+/* formulario */
+.contact__form{
+    grid-column: 1/5;
+    grid-row: 1/-1;
+    place-self: center;
+    display: grid;
+    width: 70%;
+    /* grid-auto-rows: max-content; */
+    gap: 30px;
+}
+
+.contact__title{
+    font-size: 2.5rem;   
+}
+.contact__title::after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: var(--color-primary);
+    margin-top: 10px;
+}
+.contact__input{
+    padding: 18px 10px;
+    font-family: var(--font);
+    width: 100%;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+.contact__input--area{
+    resize: none;
+}
