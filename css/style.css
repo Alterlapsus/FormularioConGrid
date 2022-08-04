@@ -12,3 +12,33 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+.contact{
+    min-height: 600px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: var(--contact-columns);
+    grid-template-rows: var(--contact-rows);
+}
+
+.contact__picture{
+    grid-column: 5/-1;
+    grid-row: 1/-1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.contact__picture::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-primary);
+    z-index: -1;
+    clip-path: var(--clip);
+}
+.contact__img{
+    width: 90%;
+}

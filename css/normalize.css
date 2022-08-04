@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- * ::after, ::before{
+ *, ::after, ::before{
     margin: 0;
     box-sizing: border-box;
  }
