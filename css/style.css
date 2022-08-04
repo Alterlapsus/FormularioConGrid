@@ -75,6 +75,7 @@ body{
 }
 .contact__input--area{
     resize: none;
+    height: 150px;
 }
 .contact__cta{
     display: block;
