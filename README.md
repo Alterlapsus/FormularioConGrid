@@ -28,7 +28,7 @@ Tecnologías utilizadas:
 Descargar de archivos: 
 
 - git 
-- git clone https://github.com/Alterlapsus/LandingPageBatatabit.git
+- git clone https://github.com/Alterlapsus/FormularioConGrid.git
 
 ---
 
