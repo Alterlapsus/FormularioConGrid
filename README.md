@@ -1,6 +1,6 @@
 # FormularioConGrid
 
-- Se realiza un formulario para poner en práctica los conocimiento que se tienen de CSS-GRID
+- Se realiza un formulario para poner en práctica los conocimiento que se tienen de CSS - GRID
 
 ---
 <a href="https://formulariogrid.netlify.app/">Ver WebSite</a>
